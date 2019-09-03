@@ -17,6 +17,8 @@
 		D4E3AB0E231DBD81002ED359 /* Styleguide.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3AB0D231DBD81002ED359 /* Styleguide.swift */; };
 		D4E3AB11231DE222002ED359 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3AB10231DE222002ED359 /* DoubleExtension.swift */; };
 		D4E3AB13231E00CE002ED359 /* TipTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3AB12231E00CE002ED359 /* TipTextField.swift */; };
+		D4E3AB15231E1761002ED359 /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3AB14231E1761002ED359 /* TipView.swift */; };
+		D4E3AB17231E1838002ED359 /* TipLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3AB16231E1838002ED359 /* TipLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		D4E3AB0D231DBD81002ED359 /* Styleguide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styleguide.swift; sourceTree = "<group>"; };
 		D4E3AB10231DE222002ED359 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 		D4E3AB12231E00CE002ED359 /* TipTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTextField.swift; sourceTree = "<group>"; };
+		D4E3AB14231E1761002ED359 /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
+		D4E3AB16231E1838002ED359 /* TipLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		D4E3AAF7231DA255002ED359 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D4E3AB00231DA2EF002ED359 /* Fonts */,
 				D4E3AB0F231DE20B002ED359 /* Extensions */,
 				D4E3AAF1231DA218002ED359 /* Info.plist */,
 				D4E3AAEE231DA218002ED359 /* LaunchScreen.storyboard */,
@@ -135,8 +140,9 @@
 				D4E3AB0B231DBD03002ED359 /* TipCalculationButtons.swift */,
 				D4E3AB0D231DBD81002ED359 /* Styleguide.swift */,
 				D4E3AB12231E00CE002ED359 /* TipTextField.swift */,
+				D4E3AB16231E1838002ED359 /* TipLabel.swift */,
+				D4E3AB14231E1761002ED359 /* TipView.swift */,
 				D4E3AAF9231DA281002ED359 /* Colors.xcassets */,
-				D4E3AB00231DA2EF002ED359 /* Fonts */,
 			);
 			path = "Custom UI";
 			sourceTree = "<group>";
@@ -233,11 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E3AB15231E1761002ED359 /* TipView.swift in Sources */,
 				D4E3AB0A231DB4FC002ED359 /* TipViewController.swift in Sources */,
 				D4E3AB11231DE222002ED359 /* DoubleExtension.swift in Sources */,
 				D4E3AB0C231DBD03002ED359 /* TipCalculationButtons.swift in Sources */,
 				D4E3AB13231E00CE002ED359 /* TipTextField.swift in Sources */,
 				D4E3AB0E231DBD81002ED359 /* Styleguide.swift in Sources */,
+				D4E3AB17231E1838002ED359 /* TipLabel.swift in Sources */,
 				D4E3AAE6231DA217002ED359 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
