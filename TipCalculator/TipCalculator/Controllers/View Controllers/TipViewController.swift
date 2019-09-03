@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TipViewController: UIViewController {
+class TipViewController: UIViewController, UIScrollViewDelegate {
     
     
     // MARK: - Outlets
@@ -23,6 +23,7 @@ class TipViewController: UIViewController {
     @IBOutlet weak var billTotalTextField: UITextField!
     @IBOutlet weak var tipTotalLabel: UILabel!
     @IBOutlet weak var totalBillAmountLabel: UILabel!
+    @IBOutlet weak var scrollView: UIScrollView!
     
     var attentiveStatus: Bool = false
     var unattentiveStatus: Bool = false
@@ -45,12 +46,18 @@ class TipViewController: UIViewController {
         let tap = UITapGestureRecognizer()
         tap.addTarget(self, action: #selector(tapResign))
         view.addGestureRecognizer(tap)
+        scrollView.delegate = self
+        scrollViewDidScroll(scrollView)
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        scrollView.contentOffset.x = 0.0
     }
     
     @objc func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
             if view.frame.origin.y == 0 {
-                self.view.frame.origin.y -= keyboardSize.height
+                self.view.frame.origin.y -= keyboardSize.height / 2
             }
         }
     }

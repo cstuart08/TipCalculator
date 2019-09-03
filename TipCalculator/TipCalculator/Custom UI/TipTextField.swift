@@ -18,7 +18,7 @@ class TipTextField: UITextField {
     }
     
     func setupUI() {
-        //updatePlaceHolderColor()
+        updatePlaceHolderColor()
         textColor = .white
         backgroundColor = .darkBlue
         tintColor = .white
@@ -34,9 +34,9 @@ class TipTextField: UITextField {
         font = UIFont(name: fontName, size: size)
     }
     
-//    func updatePlaceHolderColor() {
-//        let placeholderText = placeholder ?? ""
-//        self.attributedPlaceholder = NSAttributedString(string: placeholderText, attributes: [.foregroundColor: UIColor.lightGray, .font: UIFont(name: FontNames.robotoThin, size: 16)])
-//    }
+    func updatePlaceHolderColor() {
+        let placeholderText = placeholder ?? ""
+        self.attributedPlaceholder = NSAttributedString(string: placeholderText, attributes: [.foregroundColor: UIColor.lightGray, .font: UIFont(name: FontNames.robotoThin, size: 16)!])
+    }
 
 }

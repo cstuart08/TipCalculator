@@ -11,7 +11,7 @@ import UIKit
 class TipLabel: UILabel {
     func updateFont(fontName: String) {
         print("hello")
-        self.font = UIFont(name: fontName, size: 100)
+        self.font = UIFont(name: fontName, size: 25)
     }
 }
 

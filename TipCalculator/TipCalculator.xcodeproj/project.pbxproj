@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D47314C8231EB2DD0083AC90 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4E3AB04231DA42C002ED359 /* Roboto-Bold.ttf */; };
+		D47314C9231EB2E00083AC90 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4E3AB05231DA445002ED359 /* Roboto-Light.ttf */; };
+		D47314CA231EB2E30083AC90 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4E3AB06231DA44E002ED359 /* Roboto-Medium.ttf */; };
+		D47314CB231EB2E60083AC90 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4E3AB07231DA456002ED359 /* Roboto-Regular.ttf */; };
+		D47314CC231EB2E80083AC90 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4E3AB08231DA45F002ED359 /* Roboto-Thin.ttf */; };
 		D4E3AAE6231DA217002ED359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3AAE5231DA217002ED359 /* AppDelegate.swift */; };
 		D4E3AAEB231DA218002ED359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E3AAE9231DA218002ED359 /* Main.storyboard */; };
 		D4E3AAED231DA218002ED359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E3AAEC231DA218002ED359 /* Assets.xcassets */; };
@@ -227,8 +232,13 @@
 			files = (
 				D4E3AAF0231DA218002ED359 /* LaunchScreen.storyboard in Resources */,
 				D4E3AAFA231DA281002ED359 /* Colors.xcassets in Resources */,
+				D47314CB231EB2E60083AC90 /* Roboto-Regular.ttf in Resources */,
+				D47314C9231EB2E00083AC90 /* Roboto-Light.ttf in Resources */,
+				D47314CA231EB2E30083AC90 /* Roboto-Medium.ttf in Resources */,
+				D47314C8231EB2DD0083AC90 /* Roboto-Bold.ttf in Resources */,
 				D4E3AAED231DA218002ED359 /* Assets.xcassets in Resources */,
 				D4E3AAEB231DA218002ED359 /* Main.storyboard in Resources */,
+				D47314CC231EB2E80083AC90 /* Roboto-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
